@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		#div1{
+			width: 100px;
+			height: 100px;
+			background: red;
+		}
+	</style>
+	<script type="text/javascript" src="Base.js"></script>
+	<script type="text/javascript">
+		window.onload = function(){
+
+			//$().getId("div1").css("backgroundColor","green");
+			
+			$().getId("div1").css("background","green").html("我就想试一试");
+			// var  base = new Base();
+			// var oDiv = base.getId("div1");
+			// oDiv.css("backgroundColor","green");
+			
+		}
+	</script>
+</head>
+<body>
+	<div id="div1">我的库</div>
+</body>
+</html>
